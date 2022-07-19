@@ -52,9 +52,13 @@ ul, ol {
 }
 
 .article-general__about-shoes {
-    max-width: 1095px;
+    width: 100%;
     margin-left: 0;
     margin-bottom: 50px;
+}
+
+.article-general__text {
+    text-align: justify;
 }
 
 .article-general__text:not(:nth-last-child(1)) {
@@ -62,6 +66,6 @@ ul, ol {
     margin-bottom: 50px;
 }
 
-section:not(:nth-last-child(1)){
+section:not(:nth-last-child(1)) {
     padding-bottom: 50px;
 }
