@@ -37,6 +37,10 @@ ul, ol {
     margin-bottom: 50px;
 }
 
+.article-general__link{
+    color: #525252;
+}
+
 .article-general__item {
     padding-left: 5px;
 }
