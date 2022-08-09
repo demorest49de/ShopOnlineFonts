@@ -24,48 +24,48 @@ body {
     font-size: 22px;
 }
 
-.article-general {
-    padding: 100px 0 90px 0;
-}
-
 ul, ol {
     padding-inline-start: 23px;
 }
 
-.article-general__list {
+.article {
+    padding: 100px 0 90px 0;
+}
+
+.article__list {
     list-style: decimal;
     margin-bottom: 50px;
 }
 
-.article-general__link{
+.article__link{
     color: #525252;
 }
 
-.article-general__item {
+.article__item {
     padding-left: 5px;
 }
 
-.article-general__title {
+.article__title {
     margin-bottom: 50px;
     font-size: 50px;
     font-weight: 700;
 }
 
-.article-general__subtitle {
+.article__subtitle {
     margin-bottom: 10px;
 }
 
-.article-general__about-shoes {
+.article__about-shoes {
     width: 100%;
     margin-left: 0;
     margin-bottom: 50px;
 }
 
-.article-general__text {
+.article__text {
     text-align: justify;
 }
 
-.article-general__text:not(:nth-last-child(1)) {
+.article__text:not(:nth-last-child(1)) {
     line-height: 1.5;
     margin-bottom: 50px;
 }
