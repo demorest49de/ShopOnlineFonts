@@ -34,10 +34,13 @@ ul, ol {
 
 .article__list {
     list-style: decimal;
+}
+
+.article__navigation {
     margin-bottom: 50px;
 }
 
-.article__link{
+.article__link {
     color: #525252;
 }
 
