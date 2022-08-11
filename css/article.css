@@ -54,10 +54,6 @@ ul, ol {
     font-weight: 700;
 }
 
-.article__subtitle {
-    margin-bottom: 10px;
-}
-
 .article__about-shoes {
     width: 100%;
     margin-left: 0;
@@ -75,4 +71,9 @@ ul, ol {
 
 section:not(:nth-last-child(1)) {
     padding-bottom: 50px;
+}
+
+.article__subtitle_normal{
+    font-weight: 400;
+    font-size: 22px;
 }
